@@ -1,0 +1,76 @@
+html {
+  font-family: "Arial", sans-serif;
+  font-size: 10px;
+}
+
+.headphones {
+  background-color: #f7f7f7;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.headphones-img {
+  text-align: center;
+}
+.headphones-img img {
+  width: 70%;
+}
+.headphones-overlay {
+  background-color: #fff;
+  padding: 4% 0;
+}
+.headphones-text__title {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.headphones-text__subtitle {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: 4rem;
+  max-width: 40rem;
+}
+.headphones-text__tag {
+  font-size: 1.5rem;
+  margin-top: 8%;
+}
+.headphones-text__price {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+.headphones-text__button {
+  font-size: 1.8rem;
+  background-color: #ff7546;
+  color: #fff;
+  padding: 2rem 4rem;
+  margin-top: 7%;
+  outline: none;
+  border: none;
+}
+.headphones-text__button:hover {
+  background-color: #ff622d;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .headphones {
+    height: 100%;
+  }
+  .headphones-overlay {
+    padding: 3% 0 7% 0;
+    text-align: center;
+  }
+  .headphones-text__title {
+    margin-top: 5%;
+  }
+  .headphones-text__subtitle {
+    margin: 4rem auto 0 auto;
+  }
+}
