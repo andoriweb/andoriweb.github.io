@@ -4,4 +4,4 @@
 Макеты из сети. Вёрстка моя.
 
 
-[Секция "Наушники Beats"](https://andoryweb.github.io/headphones_beats/ "Посмотреть сайт") - Карточка товара
+[Секция "Наушники Beats"](https://andoriweb.github.io/headphones_beats/ "Посмотреть сайт") - Карточка товара
