@@ -1,0 +1,52 @@
+@media (max-width: 991px) {
+  section {
+    padding: 10% 0;
+  }
+
+  .main {
+    padding-bottom: 10%;
+  }
+  .main__img {
+    height: 40rem;
+  }
+  .main-text {
+    text-align: center;
+  }
+  .main-text__title {
+    margin-top: 5%;
+  }
+  .main-text__descr {
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+
+  .bring-mode__img {
+    margin-top: 10%;
+  }
+  .bring-mode__text {
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 575px) {
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  .main-text__title {
+    font-size: 3.2rem;
+  }
+
+  .button {
+    display: block;
+    margin: 6% auto;
+  }
+
+  .bring-mode__img {
+    margin-top: 10%;
+  }
+
+  .clients-img {
+    margin: 0 auto;
+  }
+}
