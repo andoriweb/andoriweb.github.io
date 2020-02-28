@@ -5,3 +5,5 @@
 
 
 [Секция "Наушники Beats"](https://andoriweb.github.io/headphones_beats/ "Посмотреть сайт") - Карточка товара
+
+[Книга "Истинная королева"](https://andoriweb.github.io/true_queen/ "Посмотреть сайт") - Страница
