@@ -1,0 +1,143 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto Slab", serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+img {
+  max-height: 100%;
+}
+
+.tooth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e0f4f5 url(../img/bg.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding: 0 5%;
+}
+.tooth-title {
+  font-size: 6rem;
+}
+.tooth-cubtitle {
+  display: inline-block;
+  font-size: 3.5rem;
+  background-color: #7f70b1;
+  color: #fff;
+  padding: 1.5rem 2rem 2rem 2rem;
+  margin-top: 2rem;
+}
+.tooth-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 9rem;
+  margin-bottom: 10rem;
+}
+.tooth-description__img {
+  height: 5rem;
+}
+.tooth-description__txt {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-left: 4rem;
+}
+.tooth-img {
+  height: 90%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.button {
+  font-size: 2.2rem;
+  color: #fff;
+  background-color: #01c4e0;
+  border: 1px solid #01c4e0;
+  padding: 2rem 4rem;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  outline: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #01aec7;
+}
+.button-o {
+  background-color: #e0f3f4;
+  color: #01c4e0;
+  border: 1px solid #01c4e0;
+}
+.button-o:hover {
+  background-color: #cdeced;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (max-width: 1002px) {
+  .tooth-title {
+    font-size: 5rem;
+  }
+  .tooth-cubtitle {
+    font-size: 2.5rem;
+  }
+
+  .button {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 900px) {
+  .tooth-img {
+    height: 70%;
+  }
+}
+@media (max-width: 802px) {
+  .tooth {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .tooth-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .tooth-description {
+    margin: 9rem auto 10rem auto;
+  }
+  .tooth-img {
+    display: none;
+  }
+
+  .button {
+    margin: auto;
+  }
+  .button-o {
+    margin-top: 2rem;
+  }
+}
