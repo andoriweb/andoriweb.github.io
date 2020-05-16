@@ -11,3 +11,5 @@
 [Страница по продаже книги "Путь фрилансера"](https://andoriweb.github.io/path_freelancer/ "Посмотреть сайт") - Страница
 
 [Секция "Имплантация зубов"](https://andoriweb.github.io/dental_implant/ "Посмотреть сайт") - Карточка товара
+
+[Сайт "Автоштукатурка стен"](https://andoriweb.github.io/auto_plaster/ "Посмотреть сайт") - Одностраничный сайт
