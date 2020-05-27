@@ -1,0 +1,60 @@
+/*basic settings*/
+$color-button: #ff9d00
+
+*
+  box-sizing: border-box
+
+html
+	font-size: 10px
+
+body
+	font-family: 'Roboto', sans-serif
+	font-weight: 500
+
+img
+	max-width: 100%
+
+section
+	padding: 7% 0
+	
+.container
+	max-width: 1140px
+	width: 95%
+	margin: 0 auto
+
+.button
+	background-color: $color-button
+	border-radius: 5px
+	color: #fff
+	padding: 1.4rem 2rem
+	cursor: pointer
+	font-size: 1.6rem
+	&:hover
+		background-color: darken($color-button, 5%)
+
+.section-header
+	font-size: 2.7rem
+	font-weight: 700
+	text-transform: uppercase
+	text-align: center
+
+	&__line
+		width: 50px
+		margin: 16px auto
+
+iframe
+	width: 100%
+	height: 600px
+
+@import 'header'
+@import 'main'
+@import 'modal'
+@import 'features'
+@import 'products'
+@import 'proposer'
+@import 'production'
+@import 'clients'
+@import 'feetback'
+@import 'contacts'
+@import 'footer'
+@import 'media'

@@ -1,0 +1,186 @@
+/** Media **/
+@media( max-width: 992px )
+  section
+    padding: 10% 0
+  .main
+    &-img
+      &::before
+        display: none
+    &-offer
+      flex: 0 0 70%
+      margin-left: 2rem
+
+  .clients
+    &__block
+      filter: grayscale(0%)
+      flex: 0 0 31%
+
+@media( max-width: 940px )
+  .features
+    &-advantage
+      &__title
+        font-size: 3rem
+      &__subtitle
+        font-size: 1.4rem
+    &-benefits
+      flex: 0 1 48%
+
+@media( max-width: 800px )
+  .products__wrap
+    flex-direction: column
+    align-items: center
+  .product
+    &__img
+      min-height: auto
+
+  .production
+    text-align: center
+    &-wraper
+      flex-direction: column
+    &-slider__wrap
+      width: 100%
+      margin-top: 3rem
+    &-text
+      order: -1
+      width: 100%
+      text-align: center
+      margin: 0
+      &__title
+        width: 100%
+        transform: none
+      &__descr
+        width: 70%
+        margin: 2rem auto
+
+@media( max-width: 767px )
+  .header
+    &__logo
+      background: url(../img/header/logo-mobile.png) center no-repeat
+      background-size: 100%
+      width: 45px
+      height: 45px
+    &__contacts
+      &_phons
+        margin-right: 1rem
+    &__button
+      &::before
+        display: none
+
+  .main
+    &-img
+      display: none
+    &-offer
+      flex: 0 0 100%
+      margin: 0
+    &-item_2
+      display: none
+
+  .features
+    &-advantage
+      &__row
+        flex-direction: column
+        flex-basis: 100%
+      &__title
+        font-size: 3.6rem
+      &__subtitle
+        font-size: 1.6rem
+        max-width: 100%
+        margin: 1.5rem auto 5rem auto
+    &-benefits
+      margin-top: 0
+      margin-bottom: 2rem
+      &__wrap
+        flex-direction: column
+
+  .production
+    &-slider
+      position: relative
+      &-small
+        display: none
+
+  .clients
+    &__block
+      flex: 0 0 48%
+
+  .contacts
+    padding-top: 7%
+    &__wrap
+      position: static
+      width: 100%
+      align-items: center
+      margin: 0
+
+  .modal
+    &__block
+      width: 100%
+    &__close
+      top: 0
+      right: 0
+
+@media( max-width: 603px )
+  .header
+    &__contacts
+      &_phons
+        flex-direction: column
+        justify-content: center
+        font-size: 1.8rem
+        line-height: 2.5rem
+        &-1
+          margin-right: 0
+          padding-right: 0
+          border-right: none
+
+  .production
+    &-text
+      &__descr
+        width: 100%
+
+  .feetback
+    &-slider
+      &__item
+        img
+          width: 100%
+
+@media( max-width: 510px )
+  .main
+    &-form
+      &__row
+        flex-direction: column
+    &__button
+      margin: 1.5rem 0
+
+  .modal
+    &-form
+      &__input
+        width: 70%
+        text-align: center
+      &__btn
+        margin: 15px auto
+    
+@media( max-width: 385px )
+  .header
+    &__button
+      padding: 1.5rem
+      &::before
+        content: ''
+        display: inline-block
+        background: url(../img/header/phon-button.png) center no-repeat
+        width: 20px
+        height: 20px
+        margin-right: 0
+        vertical-align: middle
+      span
+        display: none
+
+  .proposer
+    &-form
+      &__input
+        width: 100%
+
+  .clients
+    &__block
+      flex: 0 0 100%
+
+  .contacts
+    &__wrap
+      padding: 3.2rem 2rem
