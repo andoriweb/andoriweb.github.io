@@ -17,3 +17,5 @@
 [Сайт "Производство картона"](https://andoriweb.github.io/cardboard/ "Посмотреть сайт") - Одностраничный сайт
 
 [Сайт "Ремонт квартир"](https://andoriweb.github.io/repairs/ "Посмотреть сайт") - Одностраничный сайт
+
+[Сайт "celta"](https://andoriweb.github.io/celta/ "Посмотреть сайт") - Одностраничный сайт
