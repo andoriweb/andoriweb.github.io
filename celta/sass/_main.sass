@@ -1,0 +1,67 @@
+/** <main class="main"> **/
+.main
+  background: #000073 url(../img/main/main-bg.jpg) top no-repeat
+  background-size: cover
+  font-family: 'Roboto Slab'
+  color: #ffffff
+  text-align: center
+  padding-bottom: 10rem
+  position: relative
+  z-index: 1
+
+  &-header
+    position: relative
+    padding: 5rem 0
+    margin-bottom: 4rem
+
+  &-logo
+    position: absolute
+    left: 0
+    top: 50%
+    transform: translateY(-50%)
+
+  &-nav
+    font-size: 1.1rem
+    font-weight: bold
+    text-transform: uppercase
+
+    &_item
+      display: inline-block
+      color: #fff
+      margin-right: 5.5rem
+      margin-top: 2rem
+      border-bottom: 1px solid transparent
+      padding-bottom: 5px
+      letter-spacing: 3px
+      &:last-child
+        margin-right: 0
+
+  &-title
+    font-weight: 100
+    font-size: 5rem
+    margin-top: 5rem
+    letter-spacing: 9px
+    span
+      font-weight: bold
+  
+  &-subtitle
+    font-size: 1.6rem
+    font-weight: 100
+    max-width: 55rem
+    margin: 4.5rem auto 0
+    line-height: 1.4
+
+  &-buttons
+    margin-top: 7rem
+
+  &-btn
+    padding: 1rem 6rem 1rem 1rem
+
+    &-1
+      margin-right: 2.7rem
+      &::before
+        background: url(../img/main/Play.png) no-repeat
+        
+    &-2
+      &::before
+        background: url(../img/main/Academic_Cap.png) no-repeat center
