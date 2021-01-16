@@ -1,0 +1,63 @@
+/** <section class="subscribe"> **/
+.subscribe
+  padding: 50px 0
+  background: linear-gradient(90deg, rgb(10, 32, 144), rgb(35, 119, 205))
+
+  &-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &__offer
+    flex-basis: 50%
+
+  &__title
+    font-size: 50px
+    font-weight: 600
+    line-height: 1.4
+    color: #fff
+    & span
+      font-size: 14px
+      font-weight: 800
+      letter-spacing: 2px
+      color: #00bffe
+      text-transform: uppercase
+      display: block
+      margin-bottom: 40px
+
+  &__descr
+    font-size: 18px
+    max-width: 420px
+    color: #dfe8ff
+    line-height: 1.4
+    margin: 45px 0
+
+  &__form
+    position: relative
+
+  &__input
+    font-size: 14px
+    letter-spacing: 2px
+    color: #b1c3ee
+    background-color: transparent
+    border: 2px solid #405db1
+    border-radius: 35px
+    padding: 30px 210px 30px 40px
+    width: 100%
+    &::-webkit-input-placeholder
+      color:#b1c3ee
+    &::-moz-placeholder
+      color:#b1c3ee
+    &:-moz-placeholder
+      color:#b1c3ee
+    &:-ms-input-placeholder
+      color:#b1c3ee
+
+  &__btn
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    right: 12px
+    border-radius: 25px
+    padding: 20px 45px
+    letter-spacing: 3px
