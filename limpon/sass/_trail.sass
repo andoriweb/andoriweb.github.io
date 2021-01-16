@@ -1,0 +1,70 @@
+/** <section class="trail"> **/
+.trail
+  background: url(../img/trail/trail-bgc.jpg) center no-repeat
+  background-size: cover
+
+  &-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &-img
+    flex-basis: 40%
+
+  &-text
+    margin-left: 30px
+
+  &__title
+    font-size: 50px
+    color: #192b59
+    font-weight: 600
+    max-width: 550px
+    line-height: 1.3
+    margin-bottom: 55px
+
+  &-form
+    &__input
+      display: block
+      font-size: 14px
+      width: 100%
+      padding: 30px 60px 30px 40px
+      margin-top: 20px
+      border: 2px solid #dce4ec
+      border-radius: 35px
+      &::-webkit-input-placeholder
+        color:#8995b3
+      &::-moz-placeholder
+        color:#8995b3
+      &:-moz-placeholder
+        color:#8995b3
+      &:-ms-input-placeholder
+        color:#8995b3
+      
+    &__name
+      background: #fff url(../img/trail/user.svg) center right 30px no-repeat
+      background-size: 15px
+
+    &__email
+      background: #fff url(../img/trail/email.svg) center right 30px no-repeat
+      background-size: 15px
+
+    &__textarea
+      height: 160px
+      resize: none
+      line-height: 1.2
+      background: #fff url(../img/trail/pen.svg) top 30px right 30px no-repeat
+      background-size: 15px
+
+    &__btn
+      margin-top: 40px
+      padding: 25px 55px 25px 70px
+      position: relative
+      &::before
+        content: ''
+        display: block
+        width: 15px
+        height: 15px
+        background: url(../img/trail/paper-plane.svg) center no-repeat
+        position: absolute
+        top: calc( 50% - 10px )
+        left: 40px
